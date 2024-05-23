@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H&amp;M</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="skip-navgation">
+	<a href="#content">본문 바로가기</a>
+</div>
+
+<div id="wrap">
+
+<header id="header">
+	<div class="inner">
+		
+		<h1><img src="images/logo.png" alt="H&amp;M"></h1>
+		
+		<nav class="gnb">
+			<span class="blind">메인메뉴</span>
+			<ul>
+				<li>
+					<a href="#" class="glname">여성</a>
+					<ul class="gnblist">
+						<li><a href="#">상의</a></li>
+						<li><a href="#">하의</a></li>
+						<li><a href="#">원피스</a></li>
+						<li><a href="#">스포츠</a></li>
+						<li><a href="#">이너웨어</a></li>
+						<li><a href="#">엑세서리</a></li>
+						<li><a href="#">신발</a></li>
+						<li><a href="#">가방</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="glname">남성</a>
+					<ul class="gnblist">
+						<li><a href="#">상의</a></li>
+						<li><a href="#">하의</a></li>
+						<li><a href="#">이너웨어</a></li>
+						<li><a href="#">스포츠</a></li>
+						<li><a href="#">신발</a></li>
+						<li><a href="#">잡화</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="glname">아동</a>
+					<ul class="gnblist">
+						<li><a href="#">상의</a></li>
+						<li><a href="#">하의</a></li>
+						<li><a href="#">스포츠</a></li>
+						<li><a href="#">잡화</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="glname">Sale</a>
+					<ul class="gnblist">
+						<li><a href="#">시즌</a></li>
+						<li><a href="#">아울렛</a></li>
+						<li><a href="#">up to 70&sim;</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+</header>
+
+
+<script>
+	
+	const gl= document.querySelectorAll('.gnblist');
+	const gln= document.querySelectorAll('.glname');
+
+	gl.forEach(function(e){ e.style.display="none";
+	});
+
+	gln[0].addEventListener('focus', function(){
+		gl[0].style.display="block";
+	});
+	gln[0].addEventListener('blur', function(){
+		gl[0].style.display="none";
+	});
+
+
+	gln[1].addEventListener('focus', function(){
+		gl[1].style.display="block";
+	});
+	gln[1].addEventListener('blur', function(){
+		gl[1].style.display="none";
+	});
+
+
+	gln[2].addEventListener('focus', function(){
+		gl[2].style.display="block";
+	});
+	gln[2].addEventListener('blur', function(){
+		gl[2].style.display="none";
+	});
+
+
+	gln[3].addEventListener('focus', function(){
+		gl[3].style.display="block";
+	});
+	gln[3].addEventListener('blur', function(){
+		gl[3].style.display="none";
+	});
+
+</script>
+
+
+<div id="visual">
+	<div class="inner">
+		<h2 class="vhh">Feeling as fresh as a daisy</h2>
+		<p>봄에 입고싶은 옷을 만나보세요</p>
+	</div>
+</div>
+
+
+
+<article id="content">
+<span class="blind">본문 시작</span>
+	<section class="trend">
+		<h3>TREND</h3>
+		<span class="blind">2024 트랜드 신상입니다</span>
+
+		<ul>
+			<li>
+				<a href="#content">
+					<img src="images/trend1.jpg" alt="스웨터">
+					<p>스웨터</p>
+				</a>
+			</li>
+			<li>
+				<a href="#content">
+					<img src="images/trend2.jpg" alt="가디건">
+					<p>가디건</p>
+				</a>
+			</li>
+			<li>
+				<a href="#content">
+					<img src="images/trend3.jpg" alt="아동의류">
+					<p>아동의류</p>
+				</a>
+			</li>
+			<li>
+				<a href="#content">
+					<img src="images/trend4.jpg" alt="신상품">
+					<p>신상품</p> 
+				</a>
+			</li>
+		</ul>
+
+		<div class="brimg">
+			<img src="images/br.png" alt="line">
+		</div>
+		
+	</section>
+
+
+	<section class="mag">
+		<span class="blind">HandM 소식입니다</span>
+		
+		<div>
+			<h3>MAGAZINE</h3>
+			<p>A WORLD OF INSPIRATION</p>
+		</div>
+
+		<ul>
+			<li>
+				<a href="#">
+					<img src="images/mag1.jpg" alt="INSIDE H&amp;M1, 인도네시아 섬의 플라스틱 폐기물을<br>
+						데일리 패션으로 바꾸고 있습니다">
+					<div>
+						<h4>INSIDE H&amp;M</h4>
+						<p>인도네시아 섬의 플라스틱 폐기물을<br>
+						데일리 패션으로 바꾸고 있습니다</p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/mag2.jpg" alt="INSIDE H&amp;M2, 나만의 스타일을 나누세요">
+					<div>
+						<h4>INSIDE H&amp;M</h4>
+						<p>나만의 스타일을 나누세요</p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/mag3.jpg" alt="INSIDE H&amp;M3, H&amp;M 베스트 스타일링 방법">
+					<div>
+						<h4>INSIDE H&amp;M</h4>
+						<p>H&amp;M 베스트 스타일링 방법</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+
+		<div class="brimg">
+			<img src="images/br.png" alt="line">
+		</div>
+
+	</section>
+
+	<section id="issue">
+		<h3>ISSUE</h3>
+
+		<div class="ync">
+			<span class="blind">HnM 이슈</span>
+
+			<div class="ytb-vid">
+				<iframe width="680" height="370" 
+				src="https://www.youtube.com/embed/GQHeX7c8n_I" 
+				title="H&amp;M x rokh ｜WWD KOREA INTERVIEW_youtube" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+
+			<div class="tab">
+				<ul class="tab-name">
+					<li>
+					<p><a href="#" class="tn">insta</a></p>
+					</li>
+					<li>
+					<p><a href="#" class="tn">facebook</a></p>
+					</li>
+					<li>
+					<p><a href="#" class="tn">news</a></p>
+					</li>								
+				</ul>
+
+				<ul>
+					<li class="tab-con">
+						<ul>
+							<li>
+								<p>
+									<a href="#issue">
+										인스타게시물인스타게시물
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#issue">
+										인스타게시물인스타게시물
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+							<li>
+								<p>
+									<a href="#issue">
+										인스타게시물인스타게시물
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>
+							</li>
+							<li>
+								<p>
+									<a href="#issue">
+										인스타게시물인스타게시물
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+							<li>
+								<p>
+									<a href="#issue">
+										인스타게시물인스타게시물
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>								
+						</ul>
+					</li>
+					<li class="tab-con">
+						<ul>
+							<li>
+								<p>
+									<a href="#issue">
+										facebookfacebookfacebook
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#issue">
+										facebookfacebookfacebook
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+							<li>
+								<p>
+									<a href="#issue">
+										facebookfacebookfacebook
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#issue">
+										facebookfacebookfacebook
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+							<li>
+								<p>
+									<a href="#issue">
+										facebookfacebookfacebook
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+						</ul>
+					</li>
+					<li class="tab-con">
+						<ul>
+							<li>
+								<p>
+									<a href="#issue">
+										News News News
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#issue">
+										News News News
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+							<li>
+								<p>
+									<a href="#issue">
+										News News News
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#issue">
+										News News News
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+							<li>
+								<p>
+									<a href="#issue">
+										News News News
+										<span>2024-04-09</span>
+									</a>
+								</p>
+							</li>							
+						</ul>
+					</li>					
+				</ul>
+			</div>
+		</div>
+
+	
+	<script>
+		
+		const tabName = document.querySelectorAll('.tn');
+		const tabCon = document.querySelectorAll('.tab-con');
+
+
+		tabName.forEach(function(e){ e.style.color="#333";});
+		tabName[0].style.color="white";
+		tabName[0].style.background="rgba(0, 0, 0, .7)";
+		tabCon.forEach(function(e){ e.style.display="none";});
+		tabCon[0].style.display="block";
+
+
+		tabName[0].addEventListener('click', function(){
+
+			event.preventDefault();
+
+			tabName.forEach(function(e){
+				e.style.background="rgba(0, 0, 0, .2)";
+			});
+			this.style.background="rgba(0, 0, 0, .7)"
+			tabName.forEach(function(e){ e.style.color="#333";});
+			this.style.color="white";
+			tabCon.forEach(function(e){ e.style.display="none";});
+			tabCon[0].style.display="block";
+		});
+
+
+		tabName[1].addEventListener('click', function(){
+
+			event.preventDefault();
+
+			tabName.forEach(function(e){
+				e.style.background="rgba(0, 0, 0, .2)";
+			});
+			this.style.background="rgba(0, 0, 0, .7)"
+			tabName.forEach(function(e){ e.style.color="#333";});
+			this.style.color="white";
+			tabCon.forEach(function(e){ e.style.display="none";});
+			tabCon[1].style.display="block";
+		});
+
+		tabName[2].addEventListener('click', function(){
+
+			event.preventDefault();
+
+			tabName.forEach(function(e){
+				e.style.background="rgba(0, 0, 0, .2)";
+			});
+			this.style.background="rgba(0, 0, 0, .7)"
+			tabName.forEach(function(e){ e.style.color="#333";});
+			this.style.color="white";
+			tabCon.forEach(function(e){ e.style.display="none";});
+			tabCon[2].style.display="block";
+		});
+
+
+
+	</script>
+
+
+
+	</section>
+
+</article>
+
+<footer id="footer">
+
+	<div class="inner">
+			
+		<div class="icon">
+			<ul>
+				<li>
+					<a href="#footer">
+					<img src="images/icon/icon1.png" alt="페이스북 바로가기">
+					</a>
+				</li>
+				<li>
+					<a href="#footer">
+					<img src="images/icon/icon2.png" alt="x바로가기">
+					</a>
+				</li>
+				<li>
+					<a href="#footer">
+					<img src="images/icon/icon3.png" alt="인스타그램 바로가기">
+					</a>
+				</li>
+				<li>
+					<a href="#footer">
+					<img src="images/icon/icon4.png" alt="공식유투브 바로가기">
+					</a>
+				</li>
+				<li>
+					<a href="#footer">
+					<img src="images/icon/icon5.png" alt="핀터레스트 바로가기">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="par">
+		 	The content of this site is copyright-protected and is the property of H&M Hennes & Mauritz AB. H&M's business<br>
+			 concept is to offer fashion and quality at the best price in a sustainable way. H&M has since it was founded in <br>
+			1947 grown into one of the world's leading fashion companies. 
+		</div>
+		<div class="ftlogo">
+			<img src="images/footer logo.png" alt="hennes h&amp;M maurits">
+		</div>
+	</div>
+
+
+
+</footer>
+
+
+<a href="#"class="top">
+	<div><img src="images/top.png" alt="상단바로가기"></div>
+</a>
+
+
+</div>
+
+<!-- 
+<script>
+
+	//let AA=function(){ document.querySelector('.vhh').style.animation="visual-typo 1s";};
+
+	document.querySelector('.vhh').addEventListener('click', function(){
+		document.querySelector('.vhh').style.animation="visual-typo 1s"
+	})
+		
+
+</script>
+ -->
+
+</body>
+</html>
